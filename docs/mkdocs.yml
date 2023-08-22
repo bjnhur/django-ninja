@@ -4,10 +4,6 @@ site_url: https://bjnhur.github.io/django-ninja/
 repo_name: bjnhur/django-ninja
 repo_url: https://github.com/bjnhur/django-ninja
 edit_uri: ""
-extra:
-  analytics:
-    provider: 
-    property: 
 extra_css:
   - extra.css
 theme:
@@ -70,24 +66,3 @@ nav:
       - Intro: proposals/index.md
       - proposals/cbv.md
       - proposals/v1.md
-markdown_extensions:
-  - markdown_include.include
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  # Uncomment these 2 lines during development to more easily add highlights
-  #- pymdownx.highlight:
-  #    linenums: true
-  - abbr
-  - codehilite
-  - admonition
-  - pymdownx.superfences
-plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-          setup_commands:
-            - from django.conf import settings
-            - settings.configure()
-      watch:
-        - ../ninja
