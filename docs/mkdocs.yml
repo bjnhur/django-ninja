@@ -1,13 +1,13 @@
-site_name: Django Ninja
-site_description: Django Ninja - Django REST framework with high performance, easy to learn, fast to code.
-site_url: https://django-ninja.rest-framework.com
-repo_name: vitalik/django-ninja
-repo_url: https://github.com/vitalik/django-ninja
+site_name: Django Ninja - forking test
+site_description: Django Ninja - forking test
+site_url: https://bjnhur.github.io/django-ninja
+repo_name: bjnhur/django-ninja
+repo_url: https://github.com/bjnhur/django-ninja
 edit_uri: ""
 extra:
   analytics:
-    provider: google
-    property: UA-170474207-1
+    provider: 
+    property: 
 extra_css:
   - extra.css
 theme:
